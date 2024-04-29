@@ -19,7 +19,9 @@ function show3(){
     Lmenu.style.display ="none";
     Dmenu.style.display = "block";
 }
-
+// function popup(){
+//    promt("Booking done");
+// }
 
 
 // let name1=document.querySelector("#entername");
@@ -194,3 +196,48 @@ scrollTrigger:{
 },
 });
 
+// function displayPopup() {
+//    document.getElementById('popup').style.display = 'block';
+//    document.getElementById('overlay').style.display = 'block';
+// }
+
+// // Function to close the pop-up
+// function closePopup() {
+//    document.getElementById('popup').style.display = 'none';
+//    document.getElementById('overlay').style.display = 'none';
+// }
+
+// // Event listener for the button click
+// document.getElementById('popupBtn').addEventListener('click', displayPopup);
+// document.getElementById('myForm').addEventListener('submit', function(event) {
+//    event.preventDefault(); // Prevent form submission
+
+   // Collect form data
+   // const formData = new FormData(this);
+   // const formDataObject = {};
+   // formData.forEach((value, key) => {
+   //     formDataObject[key] = value;
+   // });
+
+   // Send form data to server
+//    fetch('/submit-form', {
+//        method: 'POST',
+//        headers: {
+//            'Content-Type': 'application/json'
+//        },
+//        body: JSON.stringify(formDataObject)
+//    })
+//    .then(response => {
+//        if (!response.ok) {
+//            throw new Error('Network response was not ok');
+//        }
+//        return response.json();
+//    })
+//    .then(data => {
+//        alert(data.message);
+//        document.getElementById('myForm').reset();
+//    })
+//    .catch(error => {
+//        console.error('There was a problem with the fetch operation:', error);
+//    });
+// });
